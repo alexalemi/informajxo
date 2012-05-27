@@ -6,9 +6,8 @@ title: Informaĵo
 Ĉi tiu paĝo estas nun malplena.
 
 {% for post in site.posts %}
-<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{{ post.content }}
-<em>Posted on {{ post.date | date_to_long_string }}.</em>
+<a href="{{ post.url }}">{{ post.title }}</a> 
 {% endfor %}
-
+<br/>
+<br/>
 Hopefully there were some tests.
